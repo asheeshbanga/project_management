@@ -4,7 +4,6 @@ import { useMutation, useQuery } from '@apollo/client';
 import { GET_PROJECTS } from '../queries/projectQueries';
 import { ADD_PROJECT } from '../mutations/projectMutations';
 import { GET_CLIENTS } from '../queries/clientQueries';
-import e from 'cors';
 
 const AddClientModal = () => {
     const [name, setName] = useState('');
